@@ -57,4 +57,28 @@ print
 
 
 return 0; 
-}
+};
+
+
+
+
+
+
+
+//Algo for rotation.
+//for saving time and recourses i will just write the main idea i found.
+ 
+
+
+Algorithm rotation;
+
+Debut
+pour(i=1;i>4;i++)
+ pour(j=2;j>4;j++)
+  a=T[i][j];
+  b=T[i][j];
+  T[i][j]=b;
+  T[j][i]=a;
+ fin;
+fin;
+fin;
